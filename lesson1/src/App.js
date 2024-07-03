@@ -1,14 +1,14 @@
 import './App.css';
 
 
-const Title = () => {
+const Title = (props) => {
     return (
         <h1>Title</h1>
     )
 }
 const Header = () => {
     return (
-        <Title/>
+        <Title title = {'Header'} age = {18}/>
     )
 }
 const Footer = () => {
