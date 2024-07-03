@@ -2,8 +2,9 @@ import './App.css';
 
 
 const Title = (props) => {
+    const {title, age } = props
     return (
-        <h1>Title</h1>
+        <h1>{title}</h1>
     )
 }
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
 }
 const Footer = () => {
     return (
-        <Title/>
+        <Title title = {'Footer'} age={19}/>
     )
 }
 
