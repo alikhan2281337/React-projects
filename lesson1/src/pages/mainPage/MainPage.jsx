@@ -8,8 +8,9 @@ const MainPage = () => {
         <div>
             <Header/>
             <h1>Hello World</h1>
-            <Footer/>
             <User name={'Alikhan'} age={18} email={'alihanaji@gmail.com'}/>
+            <Footer/>
+
         </div>
     );
 };
