@@ -1,18 +1,28 @@
 import './App.css';
 
 
+const Title = () => {
+    return (
+        <h1>Title</h1>
+    )
+}
 const Header = () => {
     return (
-        <h1>header</h1>
+        <Title/>
     )
 }
 const Footer = () => {
     return (
-        <h1>footer</h1>
+        <Title/>
     )
 }
 
 function App() {
+    const sum = (a, b) => {
+        return a + b
+    }
+    console.log(sum(5,6))
+
     return (
         <>
             <Header/>
